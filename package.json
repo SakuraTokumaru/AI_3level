@@ -1,0 +1,14 @@
+{
+  "name": "sanlevel-consult",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server/server.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0"
+  }
+}
